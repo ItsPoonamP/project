@@ -1,0 +1,40 @@
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: lightgreen;
+    
+
+    }
+    .p1{
+    Height:150px;
+    Width:220px;
+    Background:lightgreen;
+    Border-radius:100%;
+    box-shadow: 280px -130px 0 lightgreen,280px 130px 0 lightgreen;
+    z-index: 3;
+
+  }
+   .p2
+   {
+    Height:750px;
+    Width:550px;
+    Background:lightgreen;
+    border-radius: 50%;
+      box-shadow: -900px 0 0 lightgreen;
+    z-index: 2;
+   
+   }
+    .circle{
+    height :300px;
+    Width:300px;
+    Background-color:lightgreen;
+    Border:20px solid black;
+    Border-radius:100%;
+    Box-shadow:0 0 0 40px lightgreen,
+    0 0 0 80px yellow,
+    0 0 0 130px lightgreen,
+    0 0 0 180px red;
+z-index: 1;
+    }
